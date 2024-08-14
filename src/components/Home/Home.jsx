@@ -80,9 +80,31 @@ function Home() {
       </div>
       {/* prasence  */}
       <div className="row h-[204px] mt-4 mt-lg-5 h-Auto prasence">
-        <div className="row justify-center gap-3 gap-lg-5 prasenceRow ">
+        <div className="row justify-center gap-3 gap-lg-5 prasenceRow ps-5 ps-lg-0">
           {/* delhi card  */}
-      <div className="WrapperDiv p-0">
+      <div className="WrapperDiv p-0 ms-5 ms-lg-0">
+      <div className='hoverMain w-auto flex flex-wrap flex-col '>
+          <div className='first flex justify-center'>
+            <img className='h-[80%] w-[80%] object-contain' src="/cityimages\citypng\delhi.svg" alt="" />
+          </div>
+          <div className='second flex justify-center'>
+          <img className='h-[100%] w-[100%] object-cover' src="/cityimages\cityimage\Delhi.png" alt="" />
+          </div>
+        </div>
+        <h4 className='cityNameofCard'>Delhi</h4>
+      </div>
+      <div className="WrapperDiv p-0 d-block d-lg-none ">
+      <div className='hoverMain w-auto flex flex-wrap flex-col '>
+          <div className='first flex justify-center'>
+            <img className='h-[80%] w-[80%] object-contain' src="/cityimages\citypng\delhi.svg" alt="" />
+          </div>
+          <div className='second flex justify-center'>
+          <img className='h-[100%] w-[100%] object-cover' src="/cityimages\cityimage\Delhi.png" alt="" />
+          </div>
+        </div>
+        <h4 className='cityNameofCard'>Delhi</h4>
+      </div>
+      <div className="WrapperDiv p-0 d-block d-lg-none ">
       <div className='hoverMain w-auto flex flex-wrap flex-col '>
           <div className='first flex justify-center'>
             <img className='h-[80%] w-[80%] object-contain' src="/cityimages\citypng\delhi.svg" alt="" />
