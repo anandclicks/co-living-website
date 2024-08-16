@@ -81,7 +81,7 @@
 
 @media (max-width : 600px) {
   .span {
-    color: #00AEFF !important;
+    color: #008080 !important;
   }
   .home{
     height: 350px !important;
@@ -160,6 +160,7 @@
   }
   .sectionThirdImg{
     width: 200px !important;
+    
   }
   .sectionThirdImgRight .primaryColor {
     font-size: 27px !important;
@@ -228,4 +229,5 @@
   .ultraLightBorder {
     width: 296px !important;
   }
+  
 }

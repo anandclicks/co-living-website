@@ -10,14 +10,14 @@ h5 {
   font-size: 30px !important;
 }
 .button{
-  background-color: #00aeff !important;
+  background-color: #008080 !important;
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .primaryColor {
-  color: #00aeff !important;
+  color: #008080 !important;
 }
 .fw-light-extra{
   font-weight: 100 !important;
@@ -42,7 +42,7 @@ p {
   padding: 0px 82px;
 }
 :root{
-  --primeryColor : #00aeff;
+  --primeryColor : #008080;
   --seconderyColor : #000;
   --black50 : #646060;
 }
@@ -254,7 +254,9 @@ span, .span {
   left: 0;
   top: 0;
   z-index: 10;
-  margin-left: -10%;
+  margin-bottom: 10% !important;
+  height: 93%;
+  margin-left: 0%;
 }
 .sectionThirdImgRight h1 {
   font-size: 110px !important;

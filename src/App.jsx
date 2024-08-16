@@ -18,6 +18,7 @@ import Noida from './components/Noida/Noida'
 
 
 
+
 function App() {
   return (
     <>
@@ -30,6 +31,7 @@ function App() {
    <Routes>
     <Route index path='/' element={<><Navbar/><Home/> <SectionOne/><SectionTwo/> <SectionThird/><SectionForth/></>}/>
     <Route path='/Noida' element={<><Noida/></>} />
+
    </Routes>
    <Semifooter/>
   
