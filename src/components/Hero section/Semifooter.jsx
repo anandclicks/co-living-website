@@ -3,7 +3,7 @@ import React from 'react'
 function Semifooter() {
   return (
     <div className='h-[308px] flex justify-center container-flued flex-col py-5 py-lg-0 semiFooter h-Auto'>
-      <div className="row quickLinks gap-5 justify-center">
+      <div className="row quickLinks gap-3 justify-center">
         <div className="col-12 col-lg-2">
             <p className='fwnormal text-xs'>PG In Delhi</p>
           <ul className='list-unstyled flex flex-col gap-2 pt-2'>

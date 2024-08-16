@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import './responsvie.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import Navbar from './components/Navbar/Navbar'

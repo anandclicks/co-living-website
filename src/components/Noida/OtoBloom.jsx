@@ -1,5 +1,8 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 function OtoBloom() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const [imageindex, setimageindex] = useState(6)
   const nextIndex = ()=> {
     if(imageindex >= 9) {

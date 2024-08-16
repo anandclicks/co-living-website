@@ -1,7 +1,10 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 
 function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const [SearchBoxStatus, setSearchBoxStatus] = useState(false)
   const handleSerchBox = ()=> {
     setSearchBoxStatus(true)
@@ -56,7 +59,7 @@ function Home() {
       {/* home  */}
       <div className="row h-[552px] pt-5 pt-lg-0 home">
         {/* Home left  */}
-        <div className="col-12 col-lg-8 homeLeft flex items-center">
+        <div className="col-12 col-lg-6 homeLeft flex items-center">
           <div className="box w-full mt-5 pt-5">
             <h1 className='text-capitalize fwnormal pt-0 mt-0'>Welocme to your second <span>Home</span></h1>
             <div className='homeAmenties mt-4'>
@@ -65,7 +68,7 @@ function Home() {
             <div className='inputWrapper mt-4 flex items-center ps-4'>
               <p onClick={handleSerchBox} className='cursor-pointer placeholderText'>Find a Zolo near your place of Work/Study</p>
               <div>
-                <div  className='flex items-center gap-3 gap-lg-5'>
+                <div  className='flex items-center gap-3 gap-lg-4 m-0'>
                 <i onClick={handleSerchBox} className="cursor-pointer ri-search-line primaryColor fs-4"></i>
                 <div className="button  w-[152px] h-[92px]"><i className="ri-focus-3-line fs-4 text-white me-2"></i> <p className='d-none d-lg-inline text-white'>Near me</p></div>
                 </div>
@@ -74,9 +77,9 @@ function Home() {
           </div>
         </div>
         {/* Home rihgt  */}
-        <div className="col-12 col-lg-4 homeRight d-none d-lg-flex justify-end ">
+        <div className="col-12 col-lg-6 homeRight d-none d-lg-flex justify-end ">
           <div className=' '>
-          <img className='w-[596px] ' src="https://visor.gumlet.io//public/assets/home/desktop/hero-img.png?format=webp&w=522&h=480&compress=true" alt="" />
+          <img className='w-[696px] mt-5 ' src="\Herosectiononeimages\Homemainimg.jpg" alt="" />
           </div>
         </div>
       </div>

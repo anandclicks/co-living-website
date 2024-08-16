@@ -1,6 +1,9 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 function OtoCapital() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const [imageindex, setimageindex] = useState(1)
   const nextIndex = ()=> {
     if(imageindex >= 10) {

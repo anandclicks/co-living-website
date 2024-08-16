@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import NavbarTwo from '../Navbar/NavbarTwo'
 import OtoBloom from './OtoBloom'
 import OtoCapital from './OtoCapital'
@@ -8,8 +8,11 @@ import OtoScoutHouse from './OtoScoutHouse'
 import OtoExpRessway from './OtoExpRessway'
 import OtoOmegaTownship from './OtoOmegaTownship'
 import OtoExpoPremium from './OtoExpoPremium'
+import { Link } from 'react-router-dom'
 function Noida() {
- 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <NavbarTwo/>
@@ -19,7 +22,7 @@ function Noida() {
         {/* 1st part  */}
         <div className=" container ">
           <div className="col-12 py-4 pb-2">
-            <small><span>Home<i className="fa-solid fa-chevron-right mx-1"></i></span>Delhi</small>
+            <small><span><Link to={'/'}>Home</Link><i className="fa-solid fa-chevron-right mx-1"></i></span>Delhi</small>
           </div>
           <div className="col-12">
             <h2 className='fs27px text-black mt-0'>Showing 5 properties in Delhi</h2>

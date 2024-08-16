@@ -1,7 +1,10 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 useState
 
 function OtoExpoPremium() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const [imageindex, setimageindex] = useState(7)
   const nextIndex = ()=> {
     if(imageindex >= 10) {
