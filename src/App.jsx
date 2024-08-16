@@ -11,6 +11,9 @@ import SectionForth from './components/Hero section/SectionForth'
 import SectionFifth from './components/Hero section/SectionFifth'
 import Semifooter from './components/Hero section/Semifooter'
 import Footer from './components/Footer/Footer'
+import { Route, Router, Routes } from 'react-router-dom'
+import Noida from './components/Noida/Noida'
+
 
 
 
@@ -23,16 +26,12 @@ function App() {
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" referrerPolicy="no-referrer" />
    {/* other components  */}
    {/* navbar  */}
-   <Navbar/>
-   <Home/>
-   {/* herosections  */}
-   <SectionOne/>
-   <SectionTwo/> 
-   <SectionThird/>
-   <SectionForth/>
-   {/* <SectionFifth/> */}
+   <Routes>
+    <Route index path='/' element={<><Navbar/><Home/> <SectionOne/><SectionTwo/> <SectionThird/><SectionForth/></>}/>
+    <Route path='/Noida' element={<><Noida/></>} />
+   </Routes>
    <Semifooter/>
-   <Footer/>
+  
     </>
   )
 }

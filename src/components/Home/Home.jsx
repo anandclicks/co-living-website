@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 function Home() {
   const [SearchBoxStatus, setSearchBoxStatus] = useState(false)
@@ -13,16 +14,17 @@ function Home() {
   }
   return (
     <>
+    
     <div  className={`overflow-scroll  searchBox ${SearchBoxStatus ? 'searchBoxVisible' : 'searchBoxInvisible'} bg-white`}>
     <div className=" h-full w-full box bg-white container-flued shadow-lg">
-    <i onClick={SearchBoxInvisible} class="fa-solid fa-xmark closeicon"></i>
+    <i onClick={SearchBoxInvisible} className="fa-solid fa-xmark closeicon"></i>
       <div className="row py-5 flex gap-5">
         <h3 className='fs-3 fw300 '>Find your Zolo, your way in <span className='fs33px fs33pxFormTitleText'>Delhi</span></h3>
       </div>
       {/* 2nd row  */}
       <div className="row h-[70px] flex gap-2 flex-nowrap">
         <div className="col-8 col-lg-3  h-full categaryCard rounded-lg flex items-center gap-2">
-        <i class="ri-checkbox-circle-fill fs-3 "></i> <h4 className='fwnormal'>Coliving</h4>
+        <i className="ri-checkbox-circle-fill fs-3 "></i> <h4 className='fwnormal'>Coliving</h4>
         </div>
       </div>
       {/* row 3rd  */}
@@ -82,7 +84,7 @@ function Home() {
       <div className="row h-[204px] mt-4 mt-lg-5 h-Auto prasence">
         <div className="row justify-center gap-3 gap-lg-5 prasenceRow ps-5 ps-lg-0">
           {/* delhi card  */}
-      <div className="WrapperDiv p-0 ms-5 ms-lg-0">
+      <Link to={'/delhi'} className="WrapperDiv p-0 ms-5 ms-lg-0 cursor-pointer">
       <div className='hoverMain w-auto flex flex-wrap flex-col '>
           <div className='first flex justify-center'>
             <img className='h-[80%] w-[80%] object-contain' src="/cityimages\citypng\delhi.svg" alt="" />
@@ -92,8 +94,8 @@ function Home() {
           </div>
         </div>
         <h4 className='cityNameofCard'>Delhi</h4>
-      </div>
-      <div className="WrapperDiv p-0 d-block d-lg-none ">
+      </Link>
+      <Link to={'/delhi'} className="WrapperDiv p-0 d-block d-lg-none  cursor-pointer">
       <div className='hoverMain w-auto flex flex-wrap flex-col '>
           <div className='first flex justify-center'>
             <img className='h-[80%] w-[80%] object-contain' src="/cityimages\citypng\delhi.svg" alt="" />
@@ -103,8 +105,8 @@ function Home() {
           </div>
         </div>
         <h4 className='cityNameofCard'>Delhi</h4>
-      </div>
-      <div className="WrapperDiv p-0 d-block d-lg-none ">
+      </Link>
+      <Link to={'/delhi'} className="WrapperDiv p-0 d-block d-lg-none  cursor-pointer">
       <div className='hoverMain w-auto flex flex-wrap flex-col '>
           <div className='first flex justify-center'>
             <img className='h-[80%] w-[80%] object-contain' src="/cityimages\citypng\delhi.svg" alt="" />
@@ -114,9 +116,9 @@ function Home() {
           </div>
         </div>
         <h4 className='cityNameofCard'>Delhi</h4>
-      </div>
+      </Link>
       {/* noida card  */}
-      <div className="WrapperDiv p-0">
+      <Link to={'/noida'} className="WrapperDiv p-0 cursor-pointer">
       <div className='hoverMain w-auto flex flex-wrap flex-col '>
           <div className='first flex justify-center'>
             <img className='h-[80%] w-[80%] object-contain' src="\cityimages\citypng\noida.svg" alt="" />
@@ -126,9 +128,9 @@ function Home() {
           </div>
         </div>
         <h4 className='cityNameofCard'>Noida</h4>
-      </div>
+      </Link>
       {/* Gurugram  */}
-      <div className="WrapperDiv p-0">
+      <div className="WrapperDiv p-0 cursor-pointer">
       <div className='hoverMain w-auto flex flex-wrap flex-col '>
           <div className='first flex justify-center'>
             <img className='h-[80%] w-[80%] object-contain' src="\cityimages\citypng\gurugram.svg" alt="" />
@@ -140,7 +142,7 @@ function Home() {
         <h4 className='cityNameofCard cityNameofCardguru'>Gurugram</h4>
       </div>
       {/* ghaziabad  */}
-      <div className="WrapperDiv p-0">
+      <div className="WrapperDiv p-0 cursor-pointer">
       <div className='hoverMain w-auto flex flex-wrap flex-col '>
           <div className='first flex justify-center'>
             <img className='h-[80%] w-[80%] object-contain' src="/cityimages\citypng\ghaziabad.svg" alt="" />
@@ -152,7 +154,7 @@ function Home() {
         <h4 className='cityNameofCard cityNameofCardguru'>Ghaziabad</h4>
       </div>
         {/* greater noida  */}
-        <div className="WrapperDiv p-0">
+        <div className="WrapperDiv p-0 cursor-pointer">
       <div className='hoverMain w-auto flex flex-wrap flex-col '>
           <div className='first flex justify-center'>
             <img className='h-[80%] w-[80%] object-contain' src="\cityimages\citypng\greaternoida.svg" alt="" />

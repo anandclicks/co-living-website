@@ -1,13 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function Navbar() {
+  
   return (
     <div className='container-flued h-[105px]'>
       <div className="row h-full items-end">
         {/* nav left  */}
         <div className="col-12 col-lg-4 NavLeft flex">
         <i className="ri-menu-3-line fs-1 fw-bold d-flex d-lg-none"></i>
-          <img src="/logo/OtoStaysDarkLogo.png" alt="Oto stays" />
+          <img className='logo' src="/logo/OtoStaysDarkLogo.png" alt="Oto stays" />
           <i className="ri-login-box-line fs-1 fw-bold span d-flex d-lg-none "></i>
         </div>
         {/* nav right  */}
