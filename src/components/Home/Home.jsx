@@ -66,7 +66,7 @@ function Home() {
               <img src="/svgs/food.svg" alt="" /><h3 >Make your own food or take a subscription</h3>
             </div>
             <div className='inputWrapper mt-4 flex items-center ps-4'>
-              <p onClick={handleSerchBox} className='cursor-pointer placeholderText'>Find a Zolo near your place of Work/Study</p>
+              <p onClick={handleSerchBox} className='cursor-pointer placeholderText'>Find a Oto near your place of Work/Study</p>
               <div>
                 <div  className='flex items-center gap-3 gap-lg-4 m-0'>
                 <i onClick={handleSerchBox} className="cursor-pointer ri-search-line primaryColor fs-4"></i>

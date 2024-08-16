@@ -4,7 +4,7 @@ function SectionThird() {
   return (
     <div className='container-flued h-[685px] my-5 thirdSection'>
       <div></div>
-      <img className='sectionThirdImg h-[610px] object-cover' src="/Herosectiononeimages/making memories.png" alt="" />
+      <img className='  sectionThirdImg object-cover' src="/Herosectiononeimages/making memories.png" alt="" />
       <div className='thirdSectionShape h-full w-full rounded-xl overflow-hidden'>
       <div className="row h-full">
         <div className="col-12 col-lg-6">
