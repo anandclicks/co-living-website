@@ -70,7 +70,7 @@ function Home() {
               <div>
                 <div  className='flex items-center gap-3 gap-lg-4 m-0'>
                 <i onClick={handleSerchBox} className="cursor-pointer ri-search-line primaryColor fs-4"></i>
-                <div className="button  w-[152px] h-[92px]"><i className="ri-focus-3-line fs-4 text-white me-2"></i> <p className='d-none d-lg-inline text-white'>Near me</p></div>
+                <div onClick={handleSerchBox} className="button  w-[152px] h-[92px]"><i className="ri-focus-3-line fs-4 text-white me-2"></i> <p className='d-none d-lg-inline text-white'>Near me</p></div>
                 </div>
               </div>
             </div>

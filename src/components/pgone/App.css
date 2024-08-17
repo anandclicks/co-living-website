@@ -161,11 +161,7 @@
   margin-bottom: 5px;
 }
 
-.check-in-out .policy p {
-  font-size: 1.25rem;
-  font-weight: bold;
-  margin: 0;
-}
+
 
 ul {
   list-style-type: none;
@@ -228,9 +224,6 @@ ul li {
 }
 
 
-.review h5 {
-  font-weight: bold;
-}
 
 .review .text-success {
   font-size: 1.2rem;
@@ -312,15 +305,7 @@ ul li {
 .home {
   position: relative;
 }
-.home::after {
-  height: 100%;
-  width: 100%;
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
 
-}
 .hometextcontent{
   position: relative;
   z-index: 20;
@@ -508,11 +493,7 @@ button {
  .ourPresenceRow{
   gap: 0px !important;
  }
- h1,  h4, h5 , h6 {
-  font-size:  26px !important;
-  font-weight: 600 !important;
-  color: #000;
-}
+
 .t24px {
   font-size: 24px !important;
 }
@@ -564,14 +545,8 @@ button {
   .p {
     font-size: 18px;
   }
-  h1 {
-    font-size: 35px !important;
-    font-weight: 600 !important;
-  }
-  .ourPrasence {
-    font-size: 30px !important;
-    font-weight: 500 !important;
-  }
+
+
   .homeHilight{
     font-size: 18px;
   }

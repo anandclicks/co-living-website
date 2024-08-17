@@ -4,7 +4,7 @@ import Amenities from '../pgone/Amenities';
 import '../pgone/App.css'
 import Pgsuggestion from '../Home/Pgsuggestion';
 function OtoCapitalPage() {
-  const [isFixed, setIsFixed] = useState(true);
+  const [isfixed, setIsfixed] = useState(true);
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -15,9 +15,9 @@ function OtoCapitalPage() {
       const scrollPosition = window.scrollY;
   
       if (scrollPosition >= 1830) {
-        setIsFixed(false);
+        setIsfixed(false);
       } else {
-        setIsFixed(true);
+        setIsfixed(true);
       }
     };
 
@@ -143,7 +143,7 @@ function OtoCapitalPage() {
           </div>
           {/* right side  */}
           <div className="col-12 col-lg-5 pgdesignRight py-5  ">
-            <div className={`pgform ms-0 ms-lg-4 flex  formOfPgReletive col-4 ${isFixed ? 'fixed' : 'scroll'} p-3 px-5`}>
+            <div className={`pgform ms-0 ms-lg-4 flex  formOfPgReletive col-4 ${isfixed ? 'fixed' : 'scroll'} p-3 px-5`}>
       <form className='w-full' action="">
             <h2 class="text-center p24px fwnormal fs-4">Get a call</h2>
       <div class="form-group my-3">
