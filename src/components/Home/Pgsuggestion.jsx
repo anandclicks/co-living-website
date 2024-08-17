@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom'
 
 function Pgsuggestion() {
   return (
-    <div className='container '>
+    <div className='container-flued '>
        <h2 className='fs-2 py-4'>Explore Other <span className='primeryColor'>PG</span></h2>
        <div className="overflow-scroll pgScrolling">
       <div className="row  flex-nowrap overscroll-scroll">
-      <Link to={'/noida/Oto-royalwin-sec104'} className="col-md-3 col-12 mb-4 cursor-pointer Pgcard">
+      <Link to={'/noida/otoroyalwin'} className="col-md-3 col-12 mb-4 cursor-pointer Pgcard">
           <div className="cardimg">
             <div className='cardImg'>
             <img src="\Allcitiesindividualpgs\otoroyalwinsec104\8.jpg" className="card-img-top h-full w-full object-cover" alt="Zolo Tucana" />
@@ -27,7 +27,7 @@ function Pgsuggestion() {
             </div>
           </div>
         </Link>
-        <Link to={'/noida/Oto-bloom-sec45'} className="col-md-3 col-12 mb-4 cursor-pointer Pgcard">
+        <Link to={'/noida/otobloom'} className="col-md-3 col-12 mb-4 cursor-pointer Pgcard">
           <div className="cardimg">
             <div className='cardImg'>
             <img src="\Allcitiesindividualpgs\otobloomsec45\5.jpg" className="card-img-top h-full w-full object-cover" alt="Zolo Tucana" />
@@ -47,7 +47,7 @@ function Pgsuggestion() {
             </div>
           </div>
         </Link>
-        <Link to={'/noida/Oto-royaltown-sec45'} className="col-md-3 col-12 mb-4 cursor-pointer Pgcard">
+        <Link to={'/noida/otoroyaltown'} className="col-md-3 col-12 mb-4 cursor-pointer Pgcard">
           <div className="cardimg">
             <div className='cardImg'>
             <img src="\Allcitiesindividualpgs\otoroyaltownsec45\2.jpg" className="card-img-top h-full w-full object-cover" alt="Zolo Tucana" />
@@ -67,7 +67,7 @@ function Pgsuggestion() {
             </div>
           </div>
         </Link>
-        <Link to={'/noida/Oto-capital-sec44'} className="col-md-3 col-12 mb-4 cursor-pointer Pgcard">
+        <Link to={'/noida/otocapital'} className="col-md-3 col-12 mb-4 cursor-pointer Pgcard">
           <div className="cardimg">
             <div className='cardImg'>
             <img src="\Allcitiesindividualpgs\otocapitalsec44\7.jpg" className="card-img-top h-full w-full object-cover" alt="Zolo Tucana" />

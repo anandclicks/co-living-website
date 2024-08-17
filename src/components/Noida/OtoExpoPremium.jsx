@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom';
 useState
 
 function OtoExpoPremium() {
@@ -23,7 +24,7 @@ function OtoExpoPremium() {
   }
   } 
   return (
-    <div className="pgCard rounded-xl overflow-hidden ">
+    <Link to={'/noida/otoExpoPremium'} className="pgCard rounded-xl overflow-hidden ">
     {/* img  */}
   <div className='imges'>
   <img  className="img h-[310px] w-full object-cover" src={`/Allcitiesindividualpgs/otoexpopremiumsec128/${imageindex}.jpg`}/>
@@ -49,7 +50,7 @@ function OtoExpoPremium() {
       <img className='w-5 py-2' src="\svgs\offer.svg" alt="" /><small>Up to 10% OFF</small>
     </div>
   </div>
-  </div>
+  </Link>
   )
 }
 

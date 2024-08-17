@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-
+import { Link } from 'react-router-dom'
+Link
 function OtoroRaltown() {
   const [imageindex, setimageindex] = useState(1)
   const nextIndex = ()=> {
@@ -19,7 +20,7 @@ function OtoroRaltown() {
   }
   } 
   return (
-    <div className="pgCard rounded-xl overflow-hidden ">
+    <Link to={'/noida/otoroyaltown'} className="pgCard rounded-xl overflow-hidden ">
             {/* img  */}
           <div className='imges'>
           <img  className="img h-[310px] w-full object-cover" src={`/Allcitiesindividualpgs/otoroyaltownsec45/${imageindex}.jpg`}/>
@@ -45,7 +46,7 @@ function OtoroRaltown() {
               <img className='w-5 py-2' src="\svgs\offer.svg" alt="" /><small>Up to 10% OFF</small>
             </div>
           </div>
-          </div>
+          </Link>
   )
 }
 

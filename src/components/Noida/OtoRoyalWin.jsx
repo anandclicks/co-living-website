@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 function OtoRoyalWin() {
   const [imageindex, setimageindex] = useState(2)
@@ -19,7 +20,7 @@ function OtoRoyalWin() {
   }
   } 
   return (
-    <div className="pgCard rounded-xl overflow-hidden ">
+    <Link to={'/noida/otoroyalwin'} className="pgCard rounded-xl overflow-hidden ">
             {/* img  */}
           <div className='imges'>
           <img  className="img h-[310px] w-full object-cover" src={`/Allcitiesindividualpgs/otoroyalwinsec104/${imageindex}.jpg`}/>
@@ -45,7 +46,7 @@ function OtoRoyalWin() {
               <img className='w-5 py-2' src="\svgs\offer.svg" alt="" /><small>Up to 10% OFF</small>
             </div>
           </div>
-          </div>
+          </Link>
   )
 }
 
