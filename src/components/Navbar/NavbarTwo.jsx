@@ -20,7 +20,7 @@ function NavbarTwo() {
         </div>
       </div>
       <div className="col-2 flex items-center justify-end d-none d-lg-flex">
-        <button className='loginSignupbtn text-uppercase fwnormal'>Login/Signup</button>
+        <button className='loginSignupbtn loginSignupbtntwo text-uppercase fwnormal'>Login/Signup</button>
       </div>
     </div>
   )
