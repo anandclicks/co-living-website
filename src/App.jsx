@@ -14,6 +14,7 @@ import Semifooter from './components/Hero section/Semifooter'
 import Footer from './components/Footer/Footer'
 import { Route, Router, Routes } from 'react-router-dom'
 import Noida from './components/Noida/Noida'
+import Pgsuggestion from './components/Home/Pgsuggestion'
 
 
 
@@ -21,7 +22,7 @@ import Noida from './components/Noida/Noida'
 
 function App() {
   return (
-    <>
+    <div className='mw'>
    {/* font awsome cdn  */}
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
    {/* remix icon cdn  */}
@@ -29,13 +30,13 @@ function App() {
    {/* other components  */}
    {/* navbar  */}
    <Routes>
-    <Route index path='/' element={<><Navbar/><Home/> <SectionOne/><SectionTwo/> <SectionThird/><SectionForth/></>}/>
+    <Route index path='/' element={<><Navbar/><Home/> <SectionOne/><SectionTwo/> <SectionThird/><SectionForth/><Pgsuggestion/></>}/>
     <Route path='/Noida' element={<><Noida/></>} />
 
    </Routes>
    <Semifooter/>
   
-    </>
+    </div>
   )
 }
 

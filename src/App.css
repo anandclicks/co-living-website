@@ -10,14 +10,14 @@ h5 {
   font-size: 30px !important;
 }
 .button{
-  background-color: #008080 !important;
+  background-color:#00aeff !important;
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .primaryColor {
-  color: #008080 !important;
+  color:#00aeff !important;
 }
 .fw-light-extra{
   font-weight: 100 !important;
@@ -42,7 +42,7 @@ p {
   padding: 0px 82px;
 }
 :root{
-  --primeryColor : #008080;
+  --primeryColor :#00aeff;
   --seconderyColor : #000;
   --black50 : #646060;
 }
@@ -437,8 +437,29 @@ height: 100%;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
 }
+.mw{
+  max-width: auto !important;
+  margin: 0 auto;
+}
 
+/* pg sugestion  */
+.hotel-card .thumbnail {
+  height: 300px;
+  width: 500px;
+}
+.propertyImg{
+  height: 70%;
+  width: 80%;
+}
 
+/* pg siggestion  */
+.cardImg img{
+  width:100% ;
+  height: 350px;
+}
+.pgScrolling::-webkit-scrollbar {
+  display: none;
+}
 
 
 

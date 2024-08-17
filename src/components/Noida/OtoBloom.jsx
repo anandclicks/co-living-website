@@ -22,7 +22,7 @@ function OtoBloom() {
   }
   } 
   return (
-    <Link to={'/Noida/pgone'} className="pgCard rounded-xl overflow-hidden">
+    <div  className="pgCard rounded-xl overflow-hidden">
             {/* img  */}
           <div className='imges'>
           <img  className="img h-[310px] w-full object-cover" src={`/Allcitiesindividualpgs/otobloomsec45/${imageindex}.jpg`}/>
@@ -48,7 +48,7 @@ function OtoBloom() {
               <img className='w-5 py-2' src="\svgs\offer.svg" alt="" /><small>Up to 10% OFF</small>
             </div>
           </div>
-          </Link>
+          </div>
   )
 }
 

@@ -81,7 +81,7 @@
 
 @media (max-width : 600px) {
   .span {
-    color: #008080 !important;
+    color:#00aeff !important;
   }
   .home{
     height: 350px !important;
