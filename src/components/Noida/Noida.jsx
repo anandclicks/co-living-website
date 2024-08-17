@@ -22,7 +22,7 @@ function Noida() {
         {/* 1st part  */}
         <div className=" container ">
           <div className="col-12 py-4 pb-2">
-            <small><span><Link to={'/'}>Home</Link><i className="fa-solid fa-chevron-right mx-1"></i></span>Delhi</small>
+            <small><span><Link to={'/'}>Home</Link><i className="fa-solid fa-chevron-right mx-1"></i></span>Noida</small>
           </div>
           <div className="col-12">
             <h2 className='fs27px text-black mt-0'>Showing 5 properties in Delhi</h2>

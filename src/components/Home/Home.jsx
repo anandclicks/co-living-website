@@ -19,10 +19,10 @@ function Home() {
     <>
     
     <div  className={`overflow-scroll  searchBox ${SearchBoxStatus ? 'searchBoxVisible' : 'searchBoxInvisible'} bg-white`}>
-    <div className=" h-full w-full box bg-white container-flued shadow-lg">
+    <div className=" h-full w-full box bg-white container-flued ">
     <i onClick={SearchBoxInvisible} className="fa-solid fa-xmark closeicon"></i>
       <div className="row py-5 flex gap-5">
-        <h3 className='fs-3 fw300 '>Find your Zolo, your way in <span className='fs33px fs33pxFormTitleText'>Delhi</span></h3>
+        <h3 className='fs-3 fw300 '>Find your Oto, your way in <span className='fs33px fs33pxFormTitleText'>Delhi</span></h3>
       </div>
       {/* 2nd row  */}
       <div className="row h-[70px] flex gap-2 flex-nowrap">
