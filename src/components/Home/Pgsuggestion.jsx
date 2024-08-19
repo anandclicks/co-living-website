@@ -92,7 +92,7 @@ function Pgsuggestion() {
      
        </div>
        <Link to={'/noida'} className="col-md-3 col-12 mb-4 cursor-pointer Pgcard flex justify-center items-center d-flex d-lg-none">
-         <h2 className='bgPrimery p-3 text-white rounded-lg'>Explore more <i class="fa-solid fa-magnifying-glass text-white"></i>  </h2>
+         <h2 className='bg-black p-3 text-white rounded-lg'>Explore more <i class="fa-solid fa-magnifying-glass text-white"></i>  </h2>
         </Link>
     </div>
   )

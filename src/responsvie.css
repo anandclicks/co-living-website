@@ -1,8 +1,7 @@
 
 
-
 /* for tabs  */
-@media (max-width : 1410px) {
+@media (max-width : 1450px) {
   .links li{
     font-size: 14px !important;
   }
@@ -94,7 +93,7 @@
     color:#00aeff !important;
   }
   .home{
-    height: 350px !important;
+    height: 270px !important;
   }
   .h-Auto {
     height: inherit !important;
@@ -250,5 +249,8 @@
   }
   .flogo{
     width: 110px !important;
+  }
+  .searchBox input[type='text'] {
+    width: 100% !important;
   }
 }

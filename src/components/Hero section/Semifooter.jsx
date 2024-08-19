@@ -15,7 +15,7 @@ function Semifooter() {
         </div>
         <div className="col-12 col-lg-2">
             <p className='fwnormal text-xs '>PG In Noida</p>
-          <ul className='list-unstyled flex flex-col gap-2 pt-2'>
+          <ul className='list-unstyled flex flex-col gap-1 pt-2'>
             <li className='fs13px '>PG In Noida</li>
             <li className='fs13px '>Hotels In Noida</li>
             <li className='fs13px '>Room for Rent in Noida</li>
@@ -24,7 +24,7 @@ function Semifooter() {
         </div>
         <div className="col-12 col-lg-2">
             <p className='fwnormal text-xs '>PG In Gurugram</p>
-          <ul className='list-unstyled flex flex-col gap-2 pt-2'>
+          <ul className='list-unstyled flex flex-col gap-1 pt-2'>
           <li className='fs13px '>PG In Gurugram</li>
             <li className='fs13px '>Hotels In Gurugram</li>
             <li className='fs13px '>Room for Rent in Gurugram</li>
@@ -33,7 +33,7 @@ function Semifooter() {
         </div>
         <div className="col-12 col-lg-2">
             <p className='fwnormal text-xs '>PG In Ghaziabad</p>
-          <ul className='list-unstyled flex flex-col gap-2 pt-2'>
+          <ul className='list-unstyled flex flex-col gap-1 pt-2'>
             <li className='fs13px '>PG In Ghaziabad</li>
             <li className='fs13px '>Hotels In Ghaziabad</li>
             <li className='fs13px '>Room for Rent in Ghaziabad</li>
@@ -42,7 +42,7 @@ function Semifooter() {
         </div>
         <div className="col-12 col-lg-2">
             <p className='fwnormal '>PG In Greater Noida</p>
-          <ul className='list-unstyled flex flex-col gap-2 pt-2'>
+          <ul className='list-unstyled flex flex-col gap-1 pt-2'>
             <li className='fs13px '>PG In Greater Noida</li>
             <li className='fs13px '>Hotels In Greater Noida</li>
             <li className='fs13px '>Room for Rent in Greater Noida</li>

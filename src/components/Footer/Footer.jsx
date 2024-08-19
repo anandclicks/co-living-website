@@ -21,11 +21,11 @@ function Footer() {
                           </p>
                           <p>Follow us at</p>
                           <div className="d-flex gap-4 p24px mt-5">
-                              <i className="fa-brands fa-facebook fs-3"></i>
-                              <i className="fa-brands fa-square-instagram fs-3"></i>
-                              <i className="fa-brands fa-twitter fs-3"></i>
-                              <i className="fa-brands fa-linkedin fs-3"></i>
-                              <i className="fa-brands fa-youtube fs-3"></i>
+                              <a className='text-decotation-none text-black ' href="https://www.facebook.com/OTOstays" target='_blank'><i className="fa-brands fa-facebook fs-3"></i></a>
+                              <a className='text-decotation-none text-black ' href="https://www.instagram.com/otostays6" target='_blank'><i className="fa-brands fa-square-instagram fs-3"></i></a>
+                              <a className='text-decotation-none text-black ' href="https://www.linkedin.com/company/otostays/" target='_blank'><i className="fa-brands fa-twitter fs-3"></i></a>
+                              <a className='text-decotation-none text-black ' href="https://x.com/OtoStays"><i className="fa-brands fa-linkedin fs-3" target='_blank'></i></a>
+                              
                           </div>
                       </div>
                   </div>
@@ -38,8 +38,7 @@ function Footer() {
                               <li className="text-black"><i className="ri-arrow-right-line"></i> Blog</li>
                               <li className="text-black"><i className="ri-arrow-right-line"></i>All PG'S for you</li>
                               <li className="text-black"><i className="ri-arrow-right-line"></i> User Policy</li>
-                              <li className="text-black"><i className="ri-arrow-right-line"></i>PG in Delhi</li>
-                              <li className="text-black"><i className="ri-arrow-right-line"></i>PG in Noida</li>
+                            
                           </ul>
                       </div>
                   </div>
@@ -49,7 +48,7 @@ function Footer() {
                       <li className='text-black'>PG In Delhi</li>
                       <li className='text-black'>PG In Noida</li>
                       <li className='text-black'>PG In Gurugram</li>
-                      <li className='text-black'>PG In Gaziyabad</li>
+                      <li className='text-black'>PG In Ghaziabad</li>
                       <li className='text-black'>PG In Greater Noida</li>
                     </ul>
                   </div>
@@ -64,13 +63,14 @@ function Footer() {
                    <div className="d-flex gap-2 align-items-center my-3 text-black">
                     <i className="fa-solid fa-phone fs-2 text-black"></i>
                     <p className='text-black'><strong className='text-black'>Phone Number</strong><br/>
-                      +91 0000000000
+                      +91 7415051778
+
                   </p>
                    </div>
                    <div className="d-flex gap-2 align-items-center my-3 text-black">
                     <i className="fa-solid fa-envelope fs-2 text-black"></i>
                      <p className='text-black'><strong className='text-black'>Email Address</strong><br/>
-                         company@gmail.com
+                     info@otostays.com
                      </p>
                    </div>
                   </div>

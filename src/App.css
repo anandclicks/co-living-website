@@ -512,9 +512,60 @@ height: 100%;
   border-bottom: 2px solid #14658ac4; /* Adjust thickness and color as needed */
   width: 20%; /* Adjust width as needed */
 }
-
-
-
+/* mobile navbar css  */
+.navbar-menu {
+  top: 100px;
+   height: 30vh;
+   background-color: #ffffff;
+   z-index: 9;
+   position: fixed;
+   width: 100%;
+   justify-content: end;
+   align-items: center;
+   transition: ease-in-out 0.3s;
+   display: flex;
+   margin-left: -2%;
+   margin-top: -100%;
+   padding-bottom: 30px;
+ }
+ .navbar-menu-visible {
+  transition: ease-in-out 0.5s;
+  margin-top: 0% !important;
+  
+ }
+ .navbar-menu-invisible {
+  transition:  0.2s;
+  margin-top: -100% !important;
+ }
+ .navbar-menu ul {
+   list-style-type: none;
+   padding: 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 10px;
+ }
+ .navMain {
+  z-index: 99;
+  position: relative;
+ }
+/* add property css  */
+.addPropertyForm input {
+  margin: 15px 0px;
+}
+.addPropertyMain{
+  transition: 0.3s ;
+}
+.addPropertyMain{
+  margin-left: 100%;
+  z-index: 99;
+}
+.PrpertyFormVisible {
+  margin-left: -2%;
+}
+.PrpertyFormInVisible {
+  margin-left: 100%;
+}
 
 
 

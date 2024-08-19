@@ -22,7 +22,7 @@ function Home() {
     <div className=" h-full w-full box bg-white container-flued ">
     <i onClick={SearchBoxInvisible} className="fa-solid fa-xmark closeicon"></i>
       <div className="row py-5 flex gap-5">
-        <h3 className='fs-3 fw300 '>Find your Oto, your way in <span className='fs33px fs33pxFormTitleText'>Delhi</span></h3>
+        <h3 className='fs-3 fw300 '>Find your Oto, your way in <span className='fs33px fs33pxFormTitleText'>Locality</span></h3>
       </div>
       {/* 2nd row  */}
       <div className="row h-[70px] flex gap-2 flex-nowrap">
@@ -34,10 +34,13 @@ function Home() {
       <div className="row py-0 py-lg-2 py-lg-4">
         <h3 className='fs16px fwnormal mb-2 ps-0'>Where would you like to stay?</h3>
         <input  type="text" />
-        <div className='flex gap-2 ps-0 pt-2 pt-lg-3'>
+        <div className='flex gap-2 flex-wrap ps-0 pt-2 pt-lg-3'>
         <div className="btn bg-light recommindCityBtn rounded-sm bgPrimery">Sector 45</div>
           <div className="btn bg-light recommindCityBtn rounded-sm">Sector 45</div>
-          <div className="btn bg-light recommindCityBtn rounded-sm">Greater noida</div>
+          <div className="btn bg-light recommindCityBtn rounded-sm">Sector 104</div>
+          <div className="btn bg-light recommindCityBtn rounded-sm">Sector 44</div>
+          <div className="btn bg-light recommindCityBtn rounded-sm">Ghaziabad</div>
+          <div className="btn bg-light recommindCityBtn rounded-sm">Greater Noida</div>
         </div>
       </div>
       {/* row 4th  */}
@@ -54,6 +57,7 @@ function Home() {
       </div>
     </div>
    </div>
+   
     <div onClick={SearchBoxInvisible} className='homeMain'>
     <div className='container-flued homeMain h-Auto '>
       {/* home  */}
@@ -84,7 +88,7 @@ function Home() {
         </div>
       </div>
       {/* prasence  */}
-      <div className="row h-[204px] mt-4 mt-lg-5 h-Auto prasence">
+      <div className="row h-[204px] mt-0 mt-lg-5 h-Auto prasence">
         <div className="row justify-center gap-3 gap-lg-5 prasenceRow ps-5 ps-lg-0">
           {/* delhi card  */}
       <Link to={'/delhi'} className="WrapperDiv p-0 ms-5 ms-lg-0 cursor-pointer">
