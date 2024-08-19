@@ -6,6 +6,12 @@ function Navbar() {
   const [menuStatus, setmenuStatus] = useState(false)
   const handleMenu = ()=> {
     setmenuStatus(prev => !prev)
+    if(menuStatus) {
+      document.querySelector("body").style.overflow = "auto";
+    }
+    else {
+      document.querySelector("body").style.overflow = "hidden";
+    }
   }
   // add property form
   const [propertyForm, setpropertyForm] = useState(false)
@@ -68,10 +74,10 @@ function Navbar() {
         <div className="col-6 d-none col-md-2 d-lg-flex  col-lg-9 NavRigth flex items-center justify-end">
          <div className='flex items-center gap-5'>
          <ul className='flex links text-uppercase'>
-            <li>explore pg</li>
-            <li>list your property</li>
-            <li><i className="fa-solid fa-phone me-1"></i>+91 7415051778</li>
-            <li><i className="fa-solid fa-envelope me-1"></i>info@otostays.com</li>
+            <Link to={'/noida'}>explore pg</Link>
+            <Link onClick={propertyFormHandle}>list your property</Link>
+            <Link><i className="fa-solid fa-phone me-1"></i>+91 7415051778</Link>
+            <Link><i className="fa-solid fa-envelope me-1"></i>info@otostays.com</Link>
           </ul>
           <div className="navBtn">
           SIGN IN
