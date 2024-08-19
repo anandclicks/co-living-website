@@ -145,7 +145,7 @@ function OtoExresswayPage() {
           {/* right side  */}
           <div className="col-12 col-lg-5 pgdesignRight py-5  ">
             <div className={`pgform ms-0 ms-lg-4 flex  formOfPgReletive col-12 col-lg-4 ${isfixed ? 'fixed' : 'scroll'} p-3 px-5`}>
-      <form className='' action="">
+      <form className='w-full' action="">
             <h2 class="text-center p24px fwnormal fs-4">Get a call</h2>
       <div class="form-group my-3">
         <input type="text" placeholder='Full name' class="form-control py-3  "  required />

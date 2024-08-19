@@ -23,6 +23,7 @@ import OtoOmegatOwnshipPage from './components/NoidaPgPages/OtoOmegatOwnshipPage
 import OtoroRaltownPage from './components/NoidaPgPages/OtoroRaltownPage'
 import OtoRoyalWinPage from './components/NoidaPgPages/OtoRoyalWinPage'
 import OtoScoutHousePage from './components/NoidaPgPages/OtoScoutHousePage'
+import Footer from './components/Footer/Footer'
 
 
 
@@ -49,9 +50,9 @@ function App() {
     <Route path='/noida/otoroyaltown' element={<><NavbarTwo/><OtoroRaltownPage/></>}/>
     <Route path='/noida/otoroyalwin' element={<><NavbarTwo/><OtoRoyalWinPage/></>}/>
     <Route path='/noida/otoscouthouse' element={<><NavbarTwo/><OtoScoutHousePage/></>} />
-
    </Routes>
    <Semifooter/>
+   <Footer/>
   
     </div>
   )
