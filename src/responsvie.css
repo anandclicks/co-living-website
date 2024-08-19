@@ -246,6 +246,9 @@
    
   }
   .footer {
-    height: 170vh !important;
+    height: inherit !important;
+  }
+  .flogo{
+    width: 110px !important;
   }
 }
