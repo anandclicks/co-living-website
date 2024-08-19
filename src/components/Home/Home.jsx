@@ -79,7 +79,7 @@ function Home() {
         {/* Home rihgt  */}
         <div className="col-12 col-lg-6 homeRight d-none d-lg-flex justify-end ">
           <div className=' '>
-          <img className='w-[696px] mt-5 ' src="\Herosectiononeimages\Homemainimg.jpg" alt="" />
+          <img className='w-[696px] mt-5 ' src="\Herosectiononeimages\Iamge for.jpg" alt="" />
           </div>
         </div>
       </div>

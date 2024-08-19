@@ -23,7 +23,7 @@ function OtoExpRessway() {
     <Link to={'/noida/otoexpressway'} className="pgCard rounded-xl overflow-hidden ">
             {/* img  */}
           <div className='imges'>
-          <img  className="img h-[310px] w-full object-cover" src={`/Allcitiesindividualpgs/otoexpresswaysec128/${imageindex}.jpg`}/>
+          <img  className="img h-[280px] w-full object-cover" src={`/Allcitiesindividualpgs/otoexpresswaysec128/${imageindex}.jpg`}/>
           {/* image controller icons  */}
           <div className='w-full flex justify-between imageCtril'>
               <i onClick={prevIndex} className="ri-arrow-left-s-line fs-4 prev"></i>
