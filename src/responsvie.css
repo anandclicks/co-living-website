@@ -65,14 +65,14 @@
   }
   .heroOneimg {
     margin-right: -25%;
-    margin-top: 2%;
+    margin-top: -5%;
   }
   .secondImg{
     margin-right: -15% !important;
   }
   .thirdImg{
     margin-right: -35% !important;
-    margin-top: 2% !important;
+    margin-top: -5% !important;
   }
   .cityNameofCard{
     font-size: 16px !important;
@@ -83,6 +83,15 @@
   }
   .heroOneimg{
     top:  -3% !important;
+  }
+  h1 {
+    font-size: 38px !important;
+  }
+  .bannerText{
+    font-size: 42px !important;
+  }
+  .fs13px{
+    font-size: 10px !important;
   }
 }
 
@@ -252,5 +261,15 @@
   }
   .searchBox input[type='text'] {
     width: 100% !important;
+  }
+  /* pg redesigning  */
+  .pgTitle{
+    font-weight: 500 !important;
+    color: #181818 !;
+  }
+  .btnPglocaion a{
+    width: 100px !important;
+    height: 20px !important;
+    font-size: 12px !important;
   }
 }

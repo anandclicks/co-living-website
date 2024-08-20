@@ -65,7 +65,7 @@ function Home() {
         {/* Home left  */}
         <div className="col-12 col-lg-6 homeLeft flex items-center">
           <div className="box w-full mt-5 pt-5">
-            <h1 className='text-capitalize fwnormal pt-0 mt-0'>Welocme to your second <span>Home</span></h1>
+            <h1 className='text-capitalize fwnormal pt-0 mt-0 homeTitle'>Welocme to your second <span>Home</span></h1>
             <div className='homeAmenties mt-4'>
               <img src="/svgs/food.svg" alt="" /><h3 >Make your own food or take a subscription</h3>
             </div>

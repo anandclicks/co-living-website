@@ -256,10 +256,6 @@ ul li {
   color: #6c757d;
 }
 
-.room-amenities {
-  font-size: 0.9rem;
-  color: #6c757d;
-}
 
 .price .new-price {
   font-size: 1.5rem;
@@ -628,7 +624,8 @@ button {
   top: 0px !important;
  }
  .imageContainer{
-  height: 400px !important;
+  height: 200px !important;
+  border-radius: 0px !important;
  }
  h1 {
   font-size: 24px !important;

@@ -9,7 +9,7 @@ function SectionThird() {
       <div className="row h-full">
         <div className="col-12 col-lg-6">
         </div>
-        <div className="col-12 col-lg-6 flex items-center sectionThirdImgRight ">
+        <div className="col-12 col-lg-6 flex items-center justify-end sectionThirdImgRight ">
           <div className="box section3rdtextbox">
             <p className='text-5xl '>Let’s make some</p>
             <h1 className='primaryColor fw300'>Memories!</h1>
