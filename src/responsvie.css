@@ -2,7 +2,10 @@
 
 /* for tabs  */
 @media (max-width : 1450px) {
-  .links li{
+  .navLinks{
+    font-size: 14px !important;
+  }
+  .links Link {
     font-size: 14px !important;
   }
   .links {

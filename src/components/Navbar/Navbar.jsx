@@ -74,10 +74,10 @@ function Navbar() {
         <div className="col-6 d-none col-md-2 d-lg-flex  col-lg-9 NavRigth flex items-center justify-end">
          <div className='flex items-center gap-5'>
          <ul className='flex links text-uppercase'>
-            <Link to={'/noida'}>explore pg</Link>
-            <Link onClick={propertyFormHandle}>list your property</Link>
-            <Link><i className="fa-solid fa-phone me-1"></i>+91 7415051778</Link>
-            <Link><i className="fa-solid fa-envelope me-1"></i>info@otostays.com</Link>
+            <Link className='navLinks' to={'/noida'}>explore pg</Link>
+            <Link className='navLinks' onClick={propertyFormHandle}>list your property</Link>
+            <Link className='navLinks'><i className="fa-solid fa-phone me-1"></i>+91 7415051778</Link>
+            <Link className='navLinks'><i className="fa-solid fa-envelope me-1"></i>info@otostays.com</Link>
           </ul>
           <div className="navBtn">
           SIGN IN
