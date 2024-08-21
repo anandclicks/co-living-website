@@ -35,6 +35,9 @@ p {
 .bgPrimery {
   background-color: var(--primeryColor) !important;
 }
+.bgPrimeryLight {
+  background-color: #00aeffa8;
+}
 .fwnormal {
   font-weight: 600;
 }
@@ -204,6 +207,9 @@ span, .span {
   clip-path: polygon(0% 0%, 100% 8%, 100% 95%, 0% 100%);
   border-radius: 10px;
   position: relative;
+}
+.roomdtls {
+  clip-path: polygon(0% 0%, 100% 8%, 100% 95%, 0% 100%);
 }
 .herosectioncard h1 {
   font-size: 110px !important;
@@ -574,11 +580,34 @@ height: 100%;
   border-radius: 5px;
 }
 
-
-
-
-
-
+.amentiesText {
+  font-size: 16px ;
+  font-weight: 500;
+}
+.individualAmenties{
+  display: flex;
+  gap: 0px;
+  align-items: center;
+  margin: 20px;
+}
+.roomTypeText{
+  font-size: 20px;
+}
+.pageMain{
+  position: relative;
+}
+.pageMain::-webkit-scrollbar {
+  display: none;
+}
+.Pagebtns {
+  position: fixed;
+  bottom: 0;
+  z-index: 99;
+        
+}
+.Pagebtns::-webkit-scrollbar {
+  display: none;
+}
 
 
 

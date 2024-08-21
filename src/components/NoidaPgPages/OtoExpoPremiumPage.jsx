@@ -45,8 +45,16 @@ function OtoExpoPremiumPage() {
     }
   }
   return (
-    <div>
+    <div className='pageMain'>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" referrerpolicy="no-referrer" />
+      <div className="Pagebtns w-full  bg-white flex justify-between  d-flex d-lg-none">
+        <div className="whatsaApp primaryColor flex items-center justify-center w-50 bg-blend-lighten ">
+         <img src="\whatsappicon\whatsapp.png" alt="" /> Schedule visit
+        </div>
+        <div className="slectRoom bgPrimery p-3 text-white w-50 flex items-center justify-center">
+          Select Room
+        </div>
+      </div>
     <div className='container-flued row2  pgdesigntwo  h-Auto'>
         <div className="row ">
           {/* left side  */}
@@ -111,13 +119,103 @@ function OtoExpoPremiumPage() {
            
             </div>
           </div>
-          {/* wallet  */}
-          <div className=" walletPart flex my-2">
-          <h2 className='fs-5 py-3 primeryBg px-3 w-full rounded-xl'>DEPOSIT IS THE SAME AS 1 MONTH RENT.</h2>
+         {/* wallet  */}
+         <div className=" walletPart flex my-2 ps-0">
+          <h2 className='fs-5 py-3  px-3 w-full rounded-xl bgPrimeryLight text-white'>DEPOSIT IS THE SAME AS 1 MONTH RENT.</h2>
           </div>
           {/* amenties  */}
-          <div className="row pb-5">
-            <Amenities/>
+          <div className="row p-0 pb-5">
+          <h2 className=' mb-2 fs-3 my-4 pb-3'>Amazing <span className='primeryColor'>Amenties</span></h2>
+            <div className="col-2 col-lg-2 flex individualAmenties">
+            <img src="/Amenties Svg/parking_icon.svg" alt="" />
+              <h6 className='amentiesText'>
+              Parking
+              </h6>
+            </div>
+            <div className="col-2 col-lg-2 individualAmenties">
+            <img src="/Amenties Svg\tv_icon.svg" alt="" />
+              <h6 className='amentiesText'>
+              TV
+              </h6>
+            </div>
+            <div className="col-2 col-lg-2 individualAmenties">
+            <img src="/Amenties Svg\ac_icon.svg" alt="" />
+              <h6 className='amentiesText'>
+              AC
+              </h6>
+            </div>
+            <div className="col-2 col-lg-2 individualAmenties">
+            <img src="/Amenties Svg\wifi_icon.svg" alt="" />
+              <h6 className='amentiesText'>
+              wIFi
+              </h6>
+            </div>
+            <div className="col-2 col-lg-2 individualAmenties">
+            <img src="/Amenties Svg\refrigerator_icon.svg" alt="" />
+              <h6 className='amentiesText'>
+              Refrigerator
+              </h6>
+            </div>
+            <div className="col-2 col-lg-2 individualAmenties">
+            <img src="/Amenties Svg\power backup_icon.svg" alt="" />
+              <h6 className='amentiesText'>
+              Generator
+              </h6>
+            </div>
+            <div className="col-2 col-lg-2 individualAmenties">
+            <img src="/Amenties Svg\almirah_icon.svg" alt="" />
+              <h6 className='amentiesText'>
+              Almirah
+              </h6>
+            </div>
+            <div className="col-2 col-lg-2 individualAmenties">
+            <img src="/Amenties Svg\bed sheet_icon.svg" alt="" />
+              <h6 className='amentiesText'>
+              Bad Sheet
+              </h6>
+            </div>
+            <div className="col-2 col-lg-2 individualAmenties">
+            <img src="/Amenties Svg\cctv_icon.svg" alt="" />
+              <h6 className='amentiesText'>
+              CCTV
+              </h6>
+            </div>
+            <div className="col-2 col-lg-2 individualAmenties">
+            <img src="/Amenties Svg\house keeping_icon.svg" alt="" />
+              <h6 className='amentiesText'>
+              maintenance
+              </h6>
+            </div>
+            <div className="col-2 col-lg-2 individualAmenties">
+            <img src="/Amenties Svg\security_icon.svg" alt="" />
+              <h6 className='amentiesText'>
+              Security
+              </h6>
+            </div>
+            <div className="col-2 col-lg-2 individualAmenties">
+            <img src="/Amenties Svg\pillow_icon.svg" alt="" />
+              <h6 className='amentiesText'>
+              Pillow
+              </h6>
+            </div>
+            <div className="col-2 col-lg-2 individualAmenties">
+            <img src="/Amenties Svg\drinking water_icon.svg" alt="" />
+              <h6 className='amentiesText'>
+               Water
+              </h6>
+            </div>
+            <div className="col-2 col-lg-2 individualAmenties">
+            <img src="/Amenties Svg\bathroom_icon.svg" alt="" />
+              <h6 className='amentiesText'>
+              Bathroom
+              </h6>
+            </div>
+            <div className="col-2 col-lg-2 individualAmenties">
+            <img src="/Amenties Svg\wash_icon.svg" alt="" />
+              <h6 className='amentiesText'>
+              Wash
+              </h6>
+            </div>
           </div>
           {/* map  */}
           <div className="row h-[40vh]">
@@ -144,7 +242,7 @@ function OtoExpoPremiumPage() {
           </div>
           {/* right side  */}
           <div className="col-12 col-lg-5 pgdesignRight py-5  ">
-            <div className={`pgform ms-0 ms-lg-4 flex  formOfPgReletive col-12 col-lg-4 ${isfixed ? 'fixed' : 'scroll'} p-3 px-5`}>
+            <div className={`pgform ms-0 ms-lg-4 flex  formOfPgReletive d-none col-12 col-lg-4 ${isfixed ? 'fixed' : 'scroll'} p-3 px-5`}>
       <form className='w-full' action="">
             <h2 class="text-center p24px fwnormal fs-4">Get a call</h2>
       <div class="form-group my-3">

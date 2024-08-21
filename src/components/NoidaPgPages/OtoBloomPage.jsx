@@ -3,6 +3,7 @@ import Amenities from '../pgone/Amenities';
 
 import '../pgone/App.css'
 import Pgsuggestion from '../Home/Pgsuggestion';
+import { Link } from 'react-router-dom';
 
 
 function OtoBloomPage() {
@@ -47,8 +48,16 @@ function OtoBloomPage() {
   }
   
   return (
-    <div>
+    <div className='pageMain'>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" referrerpolicy="no-referrer" />
+      <div className="Pagebtns w-full  bg-white flex justify-between  d-flex d-lg-none">
+        <div className="whatsaApp primaryColor flex items-center justify-center w-50 bg-blend-lighten ">
+         <img src="\whatsappicon\whatsapp.png" alt="" /> Schedule visit
+        </div>
+        <div className="slectRoom bgPrimery p-3 text-white w-50 flex items-center justify-center">
+          Select Room
+        </div>
+      </div>
     <div className='container-flued row2  pgdesigntwo  h-Auto'>
         <div className="row ">
           {/* left side  */}
@@ -56,7 +65,7 @@ function OtoBloomPage() {
             {/* top btn and pg info  */}
           <div className="flex w-full justify-between items-center py-2 py-lg-5 h-Auto">
             <div className='flex gap-3 flex-col'>
-              <h2 className='fs-3 text-black fwnormal pgTitle'>Oto Bloom  <i class="ri-heart-line ms-3 fw-light primeryColor"></i></h2>
+              <h2 className='fs-3 text-black fwnormal pgTitle'>Oto Bloom  <i class="ri-heart-line ms-3 fw-light text-danger  "></i></h2>
               <p className='text-black-50 '>Nearby - Esi hospital Sector 22 Noida  </p>
             </div>
             <div className='btn btn-outline-info btnPglocaion btnPglocaionNone d-none d-lg-flex '>
@@ -64,11 +73,11 @@ function OtoBloomPage() {
             </div>
           </div>
           {/* location btn  */}
-        <div className='h-[10vh] d-flex  d-lg-none'>
+        {/* <div className='h-[10vh] d-flex  d-lg-none'>
         <div className='btn btn-outline-info btnPglocaion d-inline'>
-              <a target='_blanck' className='text-decoration-none' href="https://maps.app.goo.gl/eqS7HCAztCrnxMgo8"><i class="ri-map-pin-line me-1 "></i> View in map</a>
+              <a target='_blanck' className='text-decoration-none' href="https://maps.app.goo.gl/eqS7HCAztCrnxMgo8"><i class=" ri-map-pin-line me-1 colorPrimary"></i> View in map</a>
             </div>
-        </div>
+        </div> */}
           {/* images and slider  */}
           <div className="imageContainer w-full overflow-hidden">
             <img className='h-full w-full object-cover' src={`/Allcitiesindividualpgs/otobloomsec45/${imageNo}.jpg`} alt="" />
@@ -77,36 +86,38 @@ function OtoBloomPage() {
               <i onClick={NextImgHnadle} class="ri-arrow-right-s-line fs-1"></i></div>
           </div>
           {/* about property  */}
-          <div className=" w-full  pt-4 pb-0 py-lg-5 h-auto">
-          <p className='primeryColor pb-5'>Home <i class="ri-arrow-right-s-line"></i> Noida <i class="ri-arrow-right-s-line"></i> All PG <i class="ri-arrow-right-s-line"></i> <span className='text-black'>Oto bloom</span></p>
+          <div className=" w-full  pt-4 pb-0  h-auto">
+          <p className='primeryColor pb-5 primaryColor'>Home <i class="ri-arrow-right-s-line primaryColor"></i> Noida <i class="ri-arrow-right-s-line primaryColor"></i> All PG <i class="ri-arrow-right-s-line primaryColor"></i> <span className='text-black'>Oto bloom</span></p>
           </div>
            {/* about property  */}
            <div className="box ">
             <h2 className='fs-2'>About the <span className='primeryColor'>Property</span></h2>
             <p className='flex flex-col'>
-              <span className='mb-3 mt-2 text-black'>Discover Your Ideal PG near Bellandur with OTO Nirvana!</span> <br />
-             <span className='mb-3 text-black'>
+              <span className='mb-3 mt-2 text-black'>Discover Your Ideal PG near Bellandur with OTO Nirvana! At OTO Nirvana, we understand the importance of proximity. Whether you're searching for a 'PG near me' or a PG in Bellandur, our prime location ensures easy access to your </span> <br /> 
+              {/* <Link className='primaryColor'>Read more</Link> */}
+             {/* <span className='mb-3 text-black'>
              Strategically nestled within a stone's throw away from key office spaces and access roads, OTO Nirvana offers the perfect blend of comfort and convenience. Situated just 1.5 km from RMC Ecospace, 1 km from Central Mall, and SAP Labs Bellandur, and a mere 2 km from Sarjapur Road Signal, our PG is your gateway to seamless living in the heart of Bellandur.
              </span>
-              <span className='mb-3 text-black'>At OTO Nirvana, we understand the importance of proximity. Whether you're searching for a 'PG near me' or a PG in Bellandur, our prime location ensures easy access to your workplace and essential amenities. With thoughtfully designed living spaces, modern amenities, and a vibrant community, OTO Nirvana redefines PG living.
+              <span className='mb-3 text-black'>
+              workplace and essential amenities.  With thoughtfully designed living spaces, modern amenities, and a vibrant community, OTO Nirvana redefines PG living.
               </span>
               <span className='text-black'>
               Experience the convenience of urban living with OTO Nirvana. Your search for the perfect PG near Bellandur ends here!
-              </span>
+              </span> */}
 </p>
           </div>
           {/* rooms dtls  */}
-          <div className="row py-3 h-auto">
+          <div className="row p-0 py-2 h-auto">
             <h2 className='fs-2'>Room <span className='primeryColor'>Detels</span></h2>
             <p className='mt-2'>All room type have some variants that are larger in size or have extra Amenities.</p>
-            <div className="priceBox w-full row gap-3 py-4 px-4">
-              <div className='bgLightDark col-12 col-lg-4  flex flex-col items-center pricingCard p-2 p-lg-4  rounded-2xl cursor-pointer'>
-              <h2 className='fs-5 py-1'>Private Room</h2>
+            <div className="priceBox w-full row gap-3 ">
+              <div className='bgLightDark col-lg-3 roomdtls  flex flex-col items-start  pricingCard p-2 p-lg-6  rounded-xl cursor-pointer'>
+              <h2 className='roomTypeText py-1'>Private Room</h2>
               <p>starting from</p>
               <span className='fw-bold mt-1 text-black'>₹11,000/<span className='fw-light text-black p13px'>Month</span></span>
               </div>
-              <div className='bgLightDark col-12 col-lg-4  flex flex-col items-center pricingCard p-2 p-lg-4  rounded-2xl cursor-pointer'>
-              <h2 className='fs-5 py-1'>Double sharing</h2>
+              <div className='bgLightDark col-lg-3 roomdtls  flex flex-col items-start  pricingCard p-2 p-lg-6  rounded-xl cursor-pointer'>
+              <h2 className='roomTypeText py-1'>Double sharing</h2>
               <p>starting from</p>
               <span className='fw-bold mt-1 text-black'>₹55,00/<span className='fw-light text-black p13px'>Month</span></span>
               </div>
@@ -114,12 +125,102 @@ function OtoBloomPage() {
             </div>
           </div>
           {/* wallet  */}
-          <div className=" walletPart flex my-2">
-          <h2 className='fs-5 py-3 primeryBg px-3 w-full rounded-xl'>DEPOSIT IS THE SAME AS 1 MONTH RENT.</h2>
+          <div className=" walletPart flex my-2 ps-0">
+          <h2 className='fs-5 py-3  px-3 w-full rounded-xl bgPrimeryLight text-white'>DEPOSIT IS THE SAME AS 1 MONTH RENT.</h2>
           </div>
           {/* amenties  */}
-          <div className="row pb-5">
-            <Amenities/>
+          <div className="row p-0 pb-5">
+          <h2 className=' mb-2 fs-3 my-4 pb-3'>Amazing <span className='primeryColor'>Amenties</span></h2>
+            <div className="col-2 col-lg-2 flex individualAmenties">
+            <img src="/Amenties Svg/parking_icon.svg" alt="" />
+              <h6 className='amentiesText'>
+              Parking
+              </h6>
+            </div>
+            <div className="col-2 col-lg-2 individualAmenties">
+            <img src="/Amenties Svg\tv_icon.svg" alt="" />
+              <h6 className='amentiesText'>
+              TV
+              </h6>
+            </div>
+            <div className="col-2 col-lg-2 individualAmenties">
+            <img src="/Amenties Svg\ac_icon.svg" alt="" />
+              <h6 className='amentiesText'>
+              AC
+              </h6>
+            </div>
+            <div className="col-2 col-lg-2 individualAmenties">
+            <img src="/Amenties Svg\wifi_icon.svg" alt="" />
+              <h6 className='amentiesText'>
+              wIFi
+              </h6>
+            </div>
+            <div className="col-2 col-lg-2 individualAmenties">
+            <img src="/Amenties Svg\refrigerator_icon.svg" alt="" />
+              <h6 className='amentiesText'>
+              Refrigerator
+              </h6>
+            </div>
+            <div className="col-2 col-lg-2 individualAmenties">
+            <img src="/Amenties Svg\power backup_icon.svg" alt="" />
+              <h6 className='amentiesText'>
+              Generator
+              </h6>
+            </div>
+            <div className="col-2 col-lg-2 individualAmenties">
+            <img src="/Amenties Svg\almirah_icon.svg" alt="" />
+              <h6 className='amentiesText'>
+              Almirah
+              </h6>
+            </div>
+            <div className="col-2 col-lg-2 individualAmenties">
+            <img src="/Amenties Svg\bed sheet_icon.svg" alt="" />
+              <h6 className='amentiesText'>
+              Bad Sheet
+              </h6>
+            </div>
+            <div className="col-2 col-lg-2 individualAmenties">
+            <img src="/Amenties Svg\cctv_icon.svg" alt="" />
+              <h6 className='amentiesText'>
+              CCTV
+              </h6>
+            </div>
+            <div className="col-2 col-lg-2 individualAmenties">
+            <img src="/Amenties Svg\house keeping_icon.svg" alt="" />
+              <h6 className='amentiesText'>
+              maintenance
+              </h6>
+            </div>
+            <div className="col-2 col-lg-2 individualAmenties">
+            <img src="/Amenties Svg\security_icon.svg" alt="" />
+              <h6 className='amentiesText'>
+              Security
+              </h6>
+            </div>
+            <div className="col-2 col-lg-2 individualAmenties">
+            <img src="/Amenties Svg\pillow_icon.svg" alt="" />
+              <h6 className='amentiesText'>
+              Pillow
+              </h6>
+            </div>
+            <div className="col-2 col-lg-2 individualAmenties">
+            <img src="/Amenties Svg\drinking water_icon.svg" alt="" />
+              <h6 className='amentiesText'>
+               Water
+              </h6>
+            </div>
+            <div className="col-2 col-lg-2 individualAmenties">
+            <img src="/Amenties Svg\bathroom_icon.svg" alt="" />
+              <h6 className='amentiesText'>
+              Bathroom
+              </h6>
+            </div>
+            <div className="col-2 col-lg-2 individualAmenties">
+            <img src="/Amenties Svg\wash_icon.svg" alt="" />
+              <h6 className='amentiesText'>
+              Wash
+              </h6>
+            </div>
           </div>
           {/* map  */}
           <div className="row h-[40vh]">
@@ -146,7 +247,7 @@ function OtoBloomPage() {
           </div>
           {/* right side  */}
           <div className="col-12 col-lg-5 pgdesignRight py-5  ">
-            <div className={`pgform ms-0 col-12 col-lg-4 ms-lg-4 flex  formOfPgReletive  ${isfixed ? 'fixed' : 'scroll'} p-3 px-5`}>
+            <div className={`pgform ms-0 col-12 col-lg-4 ms-lg-4 flex d-none  formOfPgReletive d-none  ${isfixed ? 'fixed' : 'scroll'} p-3 px-5`}>
       <form className='w-full' action="">
             <h2 class="text-center p24px fwnormal fs-4">Get a call</h2>
       <div class="form-group my-3">
@@ -167,7 +268,7 @@ function OtoBloomPage() {
       <button type="submit" class="btn primeryBg btn-block py-3 px-5 mt-3 w-100">Submit</button>
    
       </form>
-      <div className="row position-absolute bottom-0 d-flex ms-4 gap-2 flex-nowrap pb-5 justify-between btnsoform px-4">
+      <div className="row position-absolute bottom-0 d-flex ms-4 gap-2 flex-nowrap pb-5 justify-between btnsoform px-0 px-lg-4">
         <div className="btn btnPglocaion py-3 w-50 w-50">Property Toor <i class="fa-solid fa-video ms-2"></i></div>
         <div className="btn btnPglocaion py-3 w-50 w-50">Call now <i class="fa-solid fa-phone ms-2"></i></div>
       </div>

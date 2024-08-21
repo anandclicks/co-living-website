@@ -275,4 +275,12 @@
     height: 20px !important;
     font-size: 12px !important;
   }
+  .individualAmenties{
+    margin: 20px;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .amentiesText{
+    font-size: 12px;
+  }
 }
