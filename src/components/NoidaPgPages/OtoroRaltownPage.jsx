@@ -70,11 +70,11 @@ function OtoroRaltownPage() {
             </div>
           </div>
           {/* location btn  */}
-        <div className='h-[10vh] d-flex  d-lg-none'>
+        {/* <div className='h-[10vh] d-flex  d-lg-none'>
         <div className='btn btn-outline-info btnPglocaion d-inline'>
               <a target='_blanck' className='text-decoration-none' href="https://maps.app.goo.gl/eqS7HCAztCrnxMgo8"><i class="ri-map-pin-line me-1 fs-5"></i> View in map</a>
             </div>
-        </div>
+        </div> */}
           {/* images and slider  */}
           <div className="imageContainer w-full overflow-hidden">
             <img className='h-full w-full object-cover' src={`/Allcitiesindividualpgs/otoroyaltownsec45/${imageNo}.jpg`} alt="" />
